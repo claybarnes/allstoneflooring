@@ -1,0 +1,234 @@
+/* Responsive styles
+================================================== */
+
+/* Large Devices, Wide Screens */
+@media (min-width : 1200px) {
+	.dropdown i{
+		display: none;
+	}
+}
+
+
+/* Medium Devices, Desktops */
+@media (min-width : 992px) {
+	
+.navbar-custom .navbar-nav > li > a {
+	padding: 16px 15px;
+	letter-spacing: 0px;
+	font-size: 12px;
+}
+}
+
+/* Small Devices, Tablets */
+@media (min-width : 768px) and (max-width: 991px) {
+
+
+.navbar-custom .navbar-nav > li > a {
+	padding: 16px 7px;
+	letter-spacing: 0px;
+	font-size: 12px;
+}
+.navbar-brand i{
+	margin-right: 0px;
+	font-size: 16px;
+	line-height: 16px;
+}
+
+/*Flex slider==============*/
+.flex-caption {
+    top: 20%;
+}
+.flexslider .slides img{
+	height: auto;
+}
+
+/*Cleaning and restoration ====================*/
+.cleaning-and-restoration-box h4{
+	font-size: 14px;
+}
+
+/*subscribe======================*/
+#section-subscribe {
+    
+}
+.subscribe-inner{
+	text-align: center;
+}
+
+.subscribe-form{
+	margin-top: 40px;
+}
+.subscribe-form .btn-primary {
+    width: 100%;
+}
+#installation-tab a img{
+    width: 100%;
+    height: 180px;
+}
+
+.nav-tabs > li.col-md-4{
+    padding: 0px;
+}
+
+
+}
+
+/* Small Devices Potrait */
+@media (max-width : 767px){
+
+	
+}
+
+/* Extra Small Devices, Phones */ 
+@media (min-width : 480px) and (max-width:767px){
+	
+.navbar-custom .navbar-nav > li > a {
+    padding: 8px 16px;
+ }
+    
+.navbar-custom a {
+    color: #fff;
+    color: #000;
+}
+
+ .cleaning-and-restoration-wrap {
+    margin-top: 30px;
+}
+
+.service-inner .btn-primary.grey {
+    margin-top: 60px;
+}
+
+
+
+/* Main  Slider==============================*/
+#section-slider.flexslider{
+	height: auto;
+	height: 900px;
+}
+.flex-caption {
+	top: 10%;
+	width: 100%;
+}
+.flex-caption h4{
+	font-size: 20px;
+	line-height: 36px;
+}
+.flex-caption p{
+	font-size: 14px;
+	line-height: 26px;
+}
+.flexslider .slides img{
+	height: auto;
+}
+
+/*subscribe======================*/
+#section-subscribe {
+    padding: 60px 20px;
+}
+
+/*Contact========================================*/
+.contact-info{
+	margin-bottom: 30px;
+}
+
+.footer-socail{
+	text-align: center;
+}
+.footer-socail li {
+	padding: 0px;
+}
+.footer-socail li a {
+    text-align: center;
+    width: 30px;
+    height: 30px;
+}
+
+
+.footer-socail li a i {
+    padding-top: 8px;
+    font-size: 12px;
+}
+.copy{
+	text-align: center;
+}
+		
+
+}
+
+/* Custom, iPhone Retina */ 
+@media (min-width : 320px) and (max-width: 478px)  {
+
+
+.navbar-custom .navbar-nav > li > a {
+    padding: 8px 16px;
+ }
+
+.navbar-custom a {
+    color: #fff;
+    color: #000;
+}
+
+ .cleaning-and-restoration-wrap {
+    margin-top: 30px;
+}
+
+.service-inner .btn-primary.grey {
+    padding: 10px 20px;
+    margin-top: 60px;
+}
+
+
+/* Main  Slider==============================*/
+#section-slider.flexslider{
+	height: auto;
+	height: 900px;
+}
+.flex-caption {
+	top: 10%;
+	width: 100%;
+}
+.flex-caption h4{
+	font-size: 20px;
+	line-height: 36px;
+}
+.flex-caption p{
+	font-size: 14px;
+	line-height: 26px;
+}
+.flexslider .slides img{
+	height: auto;
+}
+
+/*subscribe======================*/
+#section-subscribe {
+    padding: 60px 20px;
+}
+
+/*Contact========================================*/
+.contact-info{
+	margin-bottom: 30px;
+}
+
+.footer-socail{
+	text-align: center;
+}
+.footer-socail li {
+	padding: 0px;
+}
+.footer-socail li a {
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    color: #DDD;
+    border: 1px solid #444;
+}
+
+
+.footer-socail li a i {
+    padding-top: 8px;
+    font-size: 12px;
+}
+
+}
