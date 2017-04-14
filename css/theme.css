@@ -137,7 +137,7 @@ p {
 
 img {
      height: auto;
-    max-width: 100%;
+    min-width: 100%;
     border: none;
     outline: none;
     transition: all 0.2s ease 0s;
@@ -329,10 +329,10 @@ h6 {
 
 .navbar-custom {
     margin-bottom: 0;
-    border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: #000;
+    background-color: #fff;
+    color: #000;
 }
 
 .logo {
@@ -587,7 +587,7 @@ h6 {
 }
 
 /*=================================================
-    SECTION SUBSCRIBE section
+    SECTION SUBSCRIBE
 =====================================================*/
 #section-subscribe{
     padding: 60px 0px;
@@ -614,6 +614,14 @@ h6 {
     border-radius: 0px;
     height: 52px;
     width: 100%;
+}
+
+#quick-contact-phone-field {
+    margin-top: 15px;
+}
+
+#quick-contact-message {
+    font-weight: bold;
 }
 
 /*=====================================================
@@ -647,6 +655,10 @@ h6 {
 
 #form-submit{
 	opacity: 1;
+}
+
+#contact-success-message {
+    font-weight: bold;
 }
 
 /*=====================================================
